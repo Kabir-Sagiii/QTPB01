@@ -1,7 +1,8 @@
+import SignUp from "./pages/signup/SignUp";
 function App() {
   return (
     <div>
-      <h1>Chatdude App</h1>
+      <SignUp />
     </div>
   );
 }
