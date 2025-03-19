@@ -1,0 +1,19 @@
+{
+  "name": "chattdude-backend",
+  "version": "1.0.0",
+  "description": "Building api's for chat-dude-app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "sagar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.14.2",
+    "nodemon": "^3.1.9"
+  }
+}
