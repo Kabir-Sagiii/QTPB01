@@ -1,0 +1,41 @@
+.userchat {
+  background-color: rgb(83, 76, 76);
+  height: 70px;
+  display: flex;
+  width: 100%;
+  border-radius: 13px;
+  margin-bottom: 7px;
+}
+.userimage {
+  width: 23%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.userchat .userimage img {
+  border-radius: 50%;
+
+  /* width: 30%; */
+}
+.userchat .userdetails {
+  width: 77%;
+
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+}
+.userdetails h4,
+span {
+  color: white;
+}
+.userdetails h4 {
+  font-size: 21px;
+  font-weight: bold;
+}
+.userdetails span {
+  color: white;
+  font-size: 14px;
+  margin-top: 4px;
+}

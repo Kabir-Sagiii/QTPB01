@@ -1,0 +1,4 @@
+.chatlist {
+  overflow-y: auto;
+  scrollbar-width: none;
+}

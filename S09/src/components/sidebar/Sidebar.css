@@ -1,0 +1,6 @@
+.sidebar {
+  background-color: rgb(43, 28, 28);
+  padding: 50px;
+  display: grid;
+  grid-template-rows: 15% 85%;
+}
